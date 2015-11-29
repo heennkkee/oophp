@@ -1,0 +1,82 @@
+/**
+*   General elements
+*/
+
+body {
+    background:#F3FEFD;
+    margin:0;
+    font-family:'Open Sans', Arial;
+}
+
+/**
+*   Classes
+*/
+.pictureRight{
+    width:45%;
+    float:right;
+}
+.pictureInfo{
+  display:inline;
+  font-style:italic;
+}
+.header {
+    overflow:auto;
+    padding-top:10px;
+}
+.headerPic {
+    float:left;
+}
+.slogan {
+    color:#0056F9;
+    display:block;
+    font-family:'Montserrat', Arial;
+}
+.sloganContainer{
+    float:left;
+    margin-left:10px;
+}
+.siteTitle {
+    font-size:20pt;
+}
+.siteSlogan {
+    font-size:18pt;
+    font-style:italic;
+    margin-left:10px;
+}
+.navigation {
+    clear:both;
+    padding-top:10px;
+    font-size:16pt;
+}
+.navigation ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.navigation li {
+    display:inline-block;
+    margin-right:15px;
+
+}
+.navigation a{
+    text-decoration:none;
+    color:#808080;
+}
+.navigation .selected {
+    color:#00ABFF;
+}
+.content {
+    padding:10px;
+}
+.footer {
+    border-top:1px black solid;
+    padding-top:5px;
+}
+.wrapper {
+    outline:2px solid #8FBFBD;
+    width:980px;
+    margin:0 auto;
+    padding:15px;
+    background-color:white;
+    box-shadow:0 0 50px #9FFFFB;
+}
