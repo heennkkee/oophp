@@ -35,7 +35,7 @@ function myAutoloader($class) {
     include($path);
   }
   else {
-    throw new Exception("Classfile '{$class}' does not exists.");
+    throw new Exception("Classfile '{$class}' does not exists at path '{$path}'.");
   }
 }
 spl_autoload_register('myAutoloader');

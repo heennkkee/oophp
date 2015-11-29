@@ -39,18 +39,25 @@ $permafrost['stylesheets'] = array(
 );
 $permafrost['lang'] = 'sv';
 $permafrost['title_append'] = ' - Kallt och svalt';
-$permafrost['fonts'] = 'https://fonts.googleapis.com/css?family=Open+Sans|Montserrat';
-
+$permafrost['fonts'][] = 'https://fonts.googleapis.com/css?family=Open+Sans';
+$permafrost['fonts'][] = 'https://fonts.googleapis.com/css?family=Montserrat';
 //POÄNGTERA I RAPPORT
 $permafrost['header'] = <<<EOD
-<img class="headerPic" src="img/snowflake.png" width=75 height=67 alt="En snöflinga."></img>
+<img class="headerPic" src="img/snowflake.png" width=75 height=67 alt="En snöflinga.">
 <div class="sloganContainer">
     <span class="siteTitle slogan">Permafrost webbtemplate</span>
     <span class="siteSlogan slogan">Frost året om</span>
 </div>
 EOD;
 $permafrost['footer'] = <<<EOD
-<span class="siteFooter">En footer #HenrikAronsson</span>
+<div class="tableRow">
+    <div class="tableCell"><span class="siteFooter">En footer #HenrikAronsson</span></div>
+    <div class="tableCell"><a href="https://www.facebook.com/haronsson1"><img src="img/fblogo.png" alt="Henrik på Facebook"></a></div>
+</div>
+<div class="tableRow">
+    <div class="tableCell"><a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance">Unicorn validering</a></div>
+    <div class="tableCell"><a href="https://www.github.com/heennkkee"><img src="img/githublogo.png" alt="Henrik på Github"></a></div>
+</div>
 EOD;
 
 $permafrost['menu'] = '<nav class="navigation"><ul>';

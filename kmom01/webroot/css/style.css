@@ -6,6 +6,7 @@ body {
     background:#F3FEFD;
     margin:0;
     font-family:'Open Sans', Arial;
+    overflow-y:scroll;
 }
 
 /**
@@ -71,6 +72,22 @@ body {
 .footer {
     border-top:1px black solid;
     padding-top:5px;
+    display:table;
+    width:100%;
+}
+.tableRow {
+    display:table-row;
+    padding:0;
+}
+.tableCell {
+    display:table-cell;
+    padding:0;
+}
+.tableCell img {
+    display:block;
+}
+.footer .tableCell:nth-child(2) {
+    float:right;
 }
 .wrapper {
     outline:2px solid #8FBFBD;
@@ -79,4 +96,5 @@ body {
     padding:15px;
     background-color:white;
     box-shadow:0 0 50px #9FFFFB;
+    margin-bottom:50px;
 }

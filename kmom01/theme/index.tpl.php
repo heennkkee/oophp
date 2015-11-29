@@ -5,9 +5,11 @@
 <title><?=get_title($title)?></title>
 <?php if(isset($favicon)): ?><link rel="shortcut icon" href="<?=$favicon?>"/><?php endif; ?>
 <?php foreach($stylesheets as $stylesheet): ?>
-<link rel='stylesheet' type='text/css' href='<?=$stylesheet?>'/>
+<link rel='stylesheet' type='text/css' href='<?=$stylesheet?>'>
 <?php endforeach; ?>
-<?php echo isset($fonts) ? "<link href='$fonts' rel='stylesheet' type='text/css'>" : '';?>
+<?php foreach($fonts as $font): ?>
+    <link href='<?=$font?>' rel='stylesheet' type='text/css'>
+<?php endforeach; ?>
 </head>
 <body>
   <div class="wrapper">
